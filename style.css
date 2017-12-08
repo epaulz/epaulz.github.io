@@ -1,0 +1,44 @@
+/* standard code used in both vertical and horizontal nav bars */
+ul#ul1 {
+	list-style-type: none;  /* removes bullets */
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: serif;
+}
+
+#album{
+	overflow: auto;
+}
+
+ul.stage{
+	padding-left: 0;
+	white-space: nowrap;
+	width: 150%;
+}
+
+li.image-wrapper{
+	display: inline-block;
+	width: 20%
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+span{
+	display: block;
+}
