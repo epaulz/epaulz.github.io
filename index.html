@@ -1,67 +1,373 @@
 <!DOCTYPE html>
-<html>
-    <head profile="http://www.w3.org/2006/03/hcard">
-        <title>Home Page</title>
-        <link href="mailto:epaulz@clemson.edu" rev="MADE">
-    </head>
-    <body>
-        <div id="hcard-Eric-Paulz" class="vcard">
-            <table>
-                <tbody>
-                    <tr>
-                        <td>
-                            <img style="float:left; margin-right:4px" src=".\pics\me4.png" class="photo">   
-                        </td>
-                        <td>
-                            <div class="vcard">
-                                <a class="url fn" href="https://epaulz.github.io">Eric Paulz</a>
-                                <div class="title">Student of Computer Science</div>
-                                <div class="adr">
-                                    <div class="org extended-address">
-                                        <div class="organization-name">Clemson University</div>
-                                    </div>
-                                    <span class="locality">Clemson, </span>
-                                    <span class="region">SC</span>
-                                    <span class="postal-code">29631</span>
-                                    <div class="country-name">USA</div>
-                                </div>
-                                <div>
-                                    Email: 
-                                    <a class="email" href="mailto:epaulz@clemson.edu">epaulz@clemson.edu</a>
-                                </div>
-                                <div>
-                                    Phone: 
-                                    <span class="tel">1-864-243-6767</span>
-                                </div>
-                                <div>
-                                    Git: 
-                                    <a class="git" href="https://bitbucket.org/paulz-e/" target="_blank">https://bitbucket.org/paulz-e/</a>
-                                </div>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Eric Paulz Homepage</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website landing Page for Developers">
+    <meta name="author" content="3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <!-- github acitivity css -->
+	
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <!--[endif]-->
+    
+</head> 
+
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="Eric Paulz" />
+            <div class="profile-content pull-left">
+                <h1 class="name">Eric Paulz</h1>
+                <h2 class="desc">Computer Science Student</h2>   
+                <ul class="social list-inline">
+					<li><a href="https://github.com/epaulz" target="_blank" alt="Github"><i class="fa fa-github-alt"></i></a></li> 				
+                    <!--<li><a href="#"><i class="fa fa-linkedin"></i></a></li>-->                                 
+                </ul> 
+            </div><!--//profile-->
+            <a class="btn btn-cta-primary pull-right" href="mailto:epaulz@clemson.edu"><i class="fa fa-paper-plane"></i>Contact Me</a>
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>Hello.  I am Eric Paulz, a Computer Science B.S. student at Clemson University who is expected to graduate in December of 2018. 
+							   My main areas of interest are in software development and engineering.  I have also had some experience working in a 
+							   manufacturing environment and enjoy the fast-paced nature of IT operations in large businesses.  I am currently seeking an 
+							   internship for the Summer of 2018 as well as a permanent entry-level position upon graduation.  You can find documentation of 
+							   most of the code I have ever written on my <a href="https://github.com/epaulz" target="_blank">Github page</a></p>
+							<p>For fun I enjoy listening to great music, playing recreational sports, and spending time with friends and family.  I have a keen
+							   interest in fast vehicles... particularly sports cars and airplanes.  My girlfriend, Alex, is studying to become a veterinarian at
+							   the Virginia-Maryland College of Veterinary Medicine, and I enjoy spending time with her and her dog Piper.</p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+				<section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+						<!-- http://caseyscarborough.com/projects/github-activity/ -->
+                        <p><a href="https://github.com/epaulz" target="_blank"><img class="img-responsive" src="assets/images/github-chart.png" alt="GitHub Contributions Chart" /></a></p>
+                        <div id="feed">
+							<iframe allowtransparency="true" frameborder="0" scrolling="no" seamless="seamless" 
+							 src="http://colmdoyle.github.io/gh-activity/gh-activity.html?user=epaulz&type=user" width="815" height="535"></iframe>
+						</div>	
+                        
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+<!--			
+                <section class="latest section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">                 
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">KickStarter - Potato Salad App</a></h3>
+                                <p class="summary">A mobile app to help you make delicious potato salad</p>
+                                <div class="featured-image">
+                                    <a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
+                                    <img class="img-responsive project-image" src="assets/images/projects/project-featured.png" alt="project name" />
+                                    </a>
+                                    <div class="ribbon">
+                                        <div class="text">App</div>
+                                        </div>
+                                    </div>                                    
+                                <div class="desc text-left">                                    
+                                    <p>You can promote your main project here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                                </div>  
+                              <a class="btn btn-cta-secondary" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a>                 
                             </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p>
-            Hello.  I am Eric Paulz, a Computer Science B.S. student at Clemson University who is expected to graduate in December of 2018. 
-            My main areas of interest are in software development and engineering.  I have also had some experience working in a 
-            manufacturing environment and enjoy the fast-paced nature of IT operations in large businesses.  I am currently seeking an 
-            internship for the Summer of 2018 as well as a permanent entry-level position upon graduation.  You can find documentation of 
-            most of the code I have ever written on my <a href="https://bitbucket.org/paulz-e/" target="_blank">Bitbucket page</a>.
-        </p>
-        <h2 id="classes">Current Classes</h2>
-        <ul>
-            <li>Foundations of Computer Science</li>
-            <li>Networks and Network Programming</li>
-            <li>Programming Systems</li>
-            <li>Introduction to Software Engineering</li>
-            <li>Design and Analysis of Algorithms</li>
-            <li>Computer Systems Organization</li>
-        </ul>
-        <h2 id="resume">Resume</h2>
-        <ul>
-            <li><a href="current_resume.pdf" target="_blank">PDF</a></li>
-        </ul>
-    </body>
-</html>
+                          <hr class="divider" />
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Velocity - Designed for Products</a></h3>
+                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+                                    <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>                        
+							</div>
+                            
+							<div class="item row">
+								<a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">
+								<img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
+								</a>
+								<div class="desc col-md-8 col-sm-8 col-xs-12">
+									<h3 class="title"><a href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">Tempo - Designed for Startups</a></h3>
+									<p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
+									<p><a class="more-link" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+								</div>                       
+							</div>                          
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">Delta - Designed for Mobile Apps</a></h3>
+                                    <p> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                    <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div>                         
+                            </div>   
+                        </div>  
+                    </div>               
+                </section>
+-->				
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Phylogeny Tree (C++)</h3>
+                                <p class="summary">A phylogeny tree exhibits a relationship among species as a proper binary tree with the species as leaves.  This project implements a class which creates, manipulates, and displays phylogeny trees given a list of species and a table that provides the relationships between them.</p>
+                                <p><a class="more-link" href="https://github.com/epaulz/Algorithms_and_Data-Structures/tree/master/Assignment3_(PhylogenyTree)" target="_blank"><i class="fa fa-external-link"></i> View on Github</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">10x10 Tic Tac Toe (Java)<!--<span class="label label-theme">Open Source</span>--></h3>
+                                <p class="summary">A Java package which contains implementation of a customized 10x10 Tic Tac Toe game.  Uses the Model-View-Controller architectural pattern for user interaction with the GUI.</p>
+                                <p><a class="more-link" href="https://github.com/epaulz/Intro_to_Software-Development/tree/master/TicTacToeGUI" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">Simple Encoder/Decoder (ARM Assembly)<!--<span class="label label-theme">Open Source</span>--></h3>
+                                <p class="summary">A simple ARM subroutine that takes in a string of lowercase letters and uses a private-key algorithm to either encode or decode the string.  To determine whether to encode or decode, a toggle parameter is passed to the function along with the input and output strings.</p>
+                                <p><a class="more-link" href="https://github.com/epaulz/Computer_Organization-ARM-/tree/master/Assignment4_(EncoderDecoder)" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>      
+							<div class="item">
+                                <h3 class="title">Graham's Scan / Convex Hull (C++)<!--<span class="label label-theme">Open Source</span>--></h3>
+                                <p class="summary">Uses the Graham's scan algorithm to find the convex hull of a finite set of points on a plane.  The algorithm finds all vertices of the convex hull ordered along its boundaries.  Essentially, it is given a set of points and uses a stack to detect and remove concavities, leaving us with the shape that surrounds all of the points given.  It will then go on to find all subsequent convex hulls, also known as shells, until all of the points have been covered.</p>
+                                <p><a class="more-link" href="https://github.com/epaulz/Algorithms_and_Data-Structures/tree/master/Assignment2_(ConvexHull)" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
+                            </div>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">BMW Manufacturing Co. - <span class="place">Material Control Intern</span> <span class="year">(Summer '17)</span></h3>
+                                <p>At BMW I worked within a logisics department completing various technical support tasks.  I gained experience using Microsoft Excel on a daily basis by modifying existing macro programs as well as writing a few from scratch using VBA.  I also, used a geolocation service to create a map of the suppliers that were managed by the members of my department.</p>
+								<p>As a guy who loves cars, BMW was a great place to work.  I really enjoyed being in a manufacturing environment and seeing the relationship between hardware and software being built before my eyes.</p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">Clemson Online - <span class="place">Educational Media & Web Support Intern</span> <span class="year">(Spring '17)</span></h3>
+                                <p>Clemson Online is a part of Clemson University which provides highly responsive services in the areas of Faculty Support, Infrastructure, and Production.  During the time that I worked there, we were in a phase of restructuring and updating the many web pages that fell under CO's responsibility.  I gained in-depth knowledge of working with HTML & CSS through maintaining, updating, and building new web pages.  Many of the pages that I worked on are used every day by Clemson students and faculty.  <strong><a href="http://www.clemson.edu/online/programs/wildlife-fisheries-biology.html" target="_blank">Click here</a></strong> to view one of the pages I created using the Clemson stylesheet!</p>
+                            </div>
+                            
+                            <div class="item">
+                                <h3 class="title">Southern Valet - <span class="place">Valet Driver</span> <span class="year">(2015-2016)</span></h3>
+                                <p>Prior to attending Clemson, I worked as a valet driver at various restaurants and hotels in downtown Greenville.  I met many different people from around the world and learned a lot about interacting with people and building relationships.  Getting to drive and park sports cars on a regular basis was definitely an added bonus.</p>
+                            </div>                          
+                        </div>  
+                    </div>               
+                </section>
+                
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span> Clemson, SC</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:epaulz@clemson.edu">epaulz@clemson.edu</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="https://epaulz.github.io">https://epaulz.github.io</a></li>
+								<li><i class="fa fa-envelope-o"></i><span class="sr-only">Resume:</span><a href="./Eric_Paulz_Resume.pdf" target="_blank">Resume (.PDF)</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <p class="intro">
+								I have been exposed to a large amount of C, C++ and Java coding through my coursework at school.  Projects that I have worked on
+								have ranged from small to large, simple to complex.  In school I have also learned about computer organization and writing assembly
+								code (ARM).  Outside of school I have had more practical experience with HTML & CSS building and maintaining web pages.  Additionally, I am familiar with Visual Basic for Applications and writing fairly complex macros in Microsoft Excel.
+							</p>
+                            
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">C &amp; C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="85%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label">Adequate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">HTML5 &amp; CSS<span class="level-label">Adequate</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="76%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">ARM Assembly<span class="level-label">Proficient</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+								
+								<div class="item">
+									<h3 class="level-title">VBA<span class="level-label">Proficient</span></h3>
+									<div class="level-bar">
+										<div class="level-bar-inner" data-level="90%">
+										</div>
+									</div>
+								</div>	
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+ 
+<!-- 
+                <aside class="testimonials aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Testimonials</h2>
+                        <div class="content">
+                            <div class="item">
+                                <blockquote class="quote">                                  
+                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
+                                </blockquote>                
+                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>                                                             
+                            </div><!--//item-->
+<!--                           
+                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p> 
+                            
+                        </div><!--//content-->
+<!--                    </div><!--//section-inner-->
+<!--                </aside><!--//section-->
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Computer Science B.S.</h3>
+                                <h4 class="university">Clemson University <span class="year">(2016-2018)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+				
+				<aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Current Coursework</h2>
+							<ul>
+								<li>Foundations of Computer Science</li>
+								<li>Networks and Network Programming</li>
+								<li>Programming Systems</li>
+								<li>Introduction to Software Engineering</li>
+								<li>Design and Analysis of Algorithms</li>
+								<li>Computer Systems Organization</li>
+							</ul>
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>German:</strong></span>
+                                    <span class="level">Basic <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> Kenny Wayne Shepherd</li>
+                                <li><i class="fa fa-headphones"></i> Maroon 5</li>
+                                <li><i class="fa fa-headphones"></i> Merle Haggard</li>
+                                <li><i class="fa fa-headphones"></i> John Mayer</li>
+								<li><i class="fa fa-headphones"></i> Tom Petty</li>
+								<li><i class="fa fa-headphones"></i> Muse</li>
+								<li><i class="fa fa-headphones"></i> Billy Joel</li>
+								<li><i class="fa fa-headphones"></i> Frank Sinatra</li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+ <!--             
+                <aside class="list conferences aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Conferences</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-calendar"></i> <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2014</a> (San Francisco)</li>
+                                <li><i class="fa fa-calendar"></i> <a href="http://hive.aigaseattle.org/">Hive</a> (Seattle)</li>
+                            </ul>
+                        </div><!--//content-->
+<!--                   </div><!--//section-inner-->
+<!--                </aside><!--//section-->
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <small class="copyright">Thanks for visiting my page!</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github activity plugin -->
+	
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
+
